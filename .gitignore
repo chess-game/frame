@@ -6,3 +6,5 @@
 .idea/frame.iml
 src/
 src/*
+pkg/
+pkg/*

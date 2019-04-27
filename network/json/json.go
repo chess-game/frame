@@ -425,7 +425,8 @@ func (js *JsonStream) ToStr() string {
 
 // 转换成字符串
 func (js *JsonStream) ToFloat32() float32 {
-	return Float32(string(js.ToStr()))
+	utils.Float32()
+	return utils.Float32(string(js.ToStr()))
 }
 
 // 转换成字符串

@@ -57,15 +57,6 @@ func Uint8(ceil string) uint8 {
 }
 
 // 字符串转int32
-func Unit8Hex(ceil string) uint8 {
-	ib, err := strconv.ParseUint(ceil, 16, 8)
-	if err == nil {
-		return uint8(ib)
-	}
-	return uint8(0)
-}
-
-// 字符串转int32
 func Uint32(ceil string) uint32 {
 	ib, err := strconv.ParseUint(ceil, 10, 32)
 	if err == nil {
